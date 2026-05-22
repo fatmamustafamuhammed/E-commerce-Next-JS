@@ -33,7 +33,7 @@ export const ProductDetail = ({ product }: Props) => {
             src={product.images[0]}
             alt={product.name}
             fill
-            objectFit="cover"
+            objectFit="contain"
             className="transition duration-300 hover:opacity-90"
           />
         </div>
